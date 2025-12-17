@@ -1,0 +1,8 @@
+# You are creating a notification system for a smart kettle.
+# It should remind the user only when the kettle has finished boiling. Task:
+## - A variable kettle_boiled =True
+# If boiled, show: "kettle done! time to make chai"
+kettle_boiled = True
+
+if kettle_boiled:
+    print("kettle Done! time to make chai")
