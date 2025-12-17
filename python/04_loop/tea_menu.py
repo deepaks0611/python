@@ -4,4 +4,7 @@
 # Task:
  #   - Use enumerate() to print menu items with numbers.
 
-menu = ["Green","Lemon","Spiced",]
+menu = ["Green","Lemon","Spiced","Mint"]
+
+for idx, item in enumerate(menu,start=1):
+    print(f"{idx}: {item} chai")
