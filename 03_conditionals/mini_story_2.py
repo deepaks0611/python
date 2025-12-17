@@ -5,7 +5,7 @@
 # - if it's cookies or samosa , confirm the order
 # - Else, show unavailability
 
-snack = input("Enter your preferred snack:")
+snack = input("Enter your preferred snack:").lower()
 
 if snack == "cookies" or snack == "samosa":
     print(f"Great choice! we'll serve you {snack}")
