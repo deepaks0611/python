@@ -6,4 +6,13 @@
 # Small -> $ 10, medium -> $ 15, large -> $20
 # If invalid:show "Unknown cup size"
 
-tea = input("Choose you cup size (small/medium/large): ").lower()
+cup = input("Choose you cup size (small/medium/large): ").lower()
+
+if cup == "small":
+    print("Price is 10 rupees")
+elif cup == "medium":
+    print("price is 15 rupees")
+elif cup == "large":
+    print("price is 20 rupees ")
+else:
+    print("Unknown cup size")
